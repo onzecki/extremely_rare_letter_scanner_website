@@ -3,6 +3,7 @@
     src: url('Monofoki-Regular.otf');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 
@@ -26,7 +27,6 @@ header{
     overflow: hidden;
 }
 .title{
-
     animation: rotate 5s ease-in-out infinite alternate, grow 2s ease-in-out infinite alternate;
 }
 main{
@@ -102,6 +102,7 @@ button:hover{
 
 img{
     border: 3px solid white;
+    height: auto;
     width: 100%;
 }
 
