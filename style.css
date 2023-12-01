@@ -52,7 +52,7 @@ section{
     align-items: center;
     justify-content: center;
     text-align: center;
-    overflow: scroll;
+    overflow: visible;
 }
 .full-section{
     flex:100%;
@@ -115,6 +115,12 @@ footer{
 
 .footer {
     margin: 1%;
+}
+
+@media only screen and (orientation:portrait){
+    section, main{
+        flex-direction:column;
+    }
 }
 
 @keyframes grow {
