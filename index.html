@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Extremely Rare Letter Scanner - A project made exclusively for education about checksums and hash functions.">
-    <script defer data-domain="erls.eu" src="https://plausible.oon.nz/js/script.js"></script>
+    <script defer data-domain="erls.eu" src="https://plausible.oon.nz/js/script.tagged-events.js"></script>
   </head>
   <body>
     <header>
@@ -30,7 +30,7 @@ excitement of rare letter scanning like never before! 💥
       </section>
       <section>
         <p>Download now for free!</p>
-        <button onclick="download()">Download</button><br>
+        <button class="plausible-event-name=Download" onclick="download()">Download</button><br>
         <a tabindex="0" class="hash" onclick="hashes()">checksum</a>
         <section id="checksums" style="display: none; opacity:0;"><p>MD5: <a href="erls.md5sum" target="_blank" download="erls.md5sum">a26e4277df9e86300d17ac1d68322c50</a><br>
         SHA256: <a href="erls.sha256sum" target="_blank" download="erls.sha256sum">6c7c8c09e849d5de63111a60bf7afba932170f0da7c90b393db65a4b816eaf6c</a></section>
